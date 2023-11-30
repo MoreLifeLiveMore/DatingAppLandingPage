@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img{
+width: 150px;
+height: 150px;
+position: relative;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color:  rgb(245, 220, 255);
+    font-weight: 700;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textbox h2{
+    color: rgb(245, 220, 255);
+    font-size: 3.5em;
+    line-height: 1.43em;
+    font-weight: 500;
+}
+
+.content .textbox h2 span{
+    color: darksalmon;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.content .textbox p{
+    color: #8d8c8c;
+}
+
+.content .textbox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: coral;
+    border-radius: 40px;
+    font-weight:600;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+body section{
+    background-image: url(/Images/oziel-gomez-L8-0SAy-aoQ-unsplash.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover ;
+}

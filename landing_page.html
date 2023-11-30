@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CSS Pages/styles.css" />
+    <title>LoveMore</title>
+  <body>
+    <section>
+      <header>
+        <a href="/HTML Pages/landing_page.html" class="logo"><img src="/Images/MoreLifeLiveMore_D1.png"></a>
+        <ul>
+          <li><a href="/HTML Pages/landing_page.html">Home</a></li>
+          <li><a href="/HTML Pages/why_lovemore.html">LoveMore</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textbox">
+          <h2> No more flings, find the real thing <span><b><em>LoveMore</em></b></span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper mattis magna at dignissim. Nunc in mauris 
+            erat. Ut fermentum pellentesque orci eu rutrum. Donec mollis blandit arcu eget tristique. Donec porttitor leo 
+            eu metus consequat sodales. Nulla vel tortor vel lacus consequat tempus sed sit amet elit. Duis eu iaculis purus.
+             Donec odio leo, feugiat in hendrerit quis, auctor vitae sem. Integer nisl lectus, rhoncus quis scelerisque quis,
+              ultrices a ante. Suspendisse fringilla varius dui, eu scelerisque purus sodales ac. Quisque eleifend posuere 
+              ipsum, nec cursus purus.</p>
+              <br/>
+              <a href="/HTML Pages/registration_page.html">Early Registration</a>
+        </div>
+    </section>
+    <script>
+      function changeBr(){
+        const images = [
+          'url("/Images/everton-vila-AsahNlC0VhQ-unsplash.png")',
+          'url("/Images/gaspar-zaldo-Z9NAI0mf1KA-unsplash.png")',
+          'url("/Images/mymind-XUlsF9LYeVk-unsplash.png")',
+          'url("/Images/oziel-gomez-L8-0SAy-aoQ-unsplash.png")'
+        ]
+        const section = document.querySelector('section')
+        const bg = images[Math.floor(Math.random() * images.length)];
+        section.style.backgroundImage =bg;
+      }
+
+      setInterval(changeBr,5000)
+    </script>
+  </body>
+</html>
